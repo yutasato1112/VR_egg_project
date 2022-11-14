@@ -70,6 +70,7 @@
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

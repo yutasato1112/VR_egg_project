@@ -367,6 +367,7 @@
 "Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs"
 "Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs"
 "Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs"
+"Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
 -langversion:9.0
 
 /deterministic
