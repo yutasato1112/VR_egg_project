@@ -58,8 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" />
@@ -68,14 +70,21 @@
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/IdleChanger.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" />
@@ -86,26 +95,17 @@
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts/SplashScreen.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts/SplashScreen.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/UnityChanControlScriptWithRgidBody.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Scripts/IdleChanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" />

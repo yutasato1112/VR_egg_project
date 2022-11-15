@@ -66,11 +66,11 @@
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
