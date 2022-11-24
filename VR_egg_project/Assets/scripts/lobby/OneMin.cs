@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ThreeMin : MonoBehaviour
+public class OneMin : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,13 +17,13 @@ public class ThreeMin : MonoBehaviour
     {
         
     }
-    public static int selectTime = 0;
-    void OnCollisionEnter(Collision collision)
+    public static bool selectOneMin = false;
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "hand")
         {
-            Debug.Log("Three");
-            selectTime = 3;
+            Debug.Log("one");
+            selectOneMin = true;
             SceneManager.LoadScene("gameScene");
         }
     }

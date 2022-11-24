@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{15E14BD1-E613-41A7-64C8-5DABB2CC2918}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/TenMin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/game/time.cs">
     <Files>
-      <File FileName="Assets/scripts/OneMin.cs" Line="20" Column="5" />
-      <File FileName="Assets/scripts/ThreeMin.cs" Line="26" Column="28" />
-      <File FileName="Assets/scripts/FiveMin.cs" Line="26" Column="28" />
-      <File FileName="Assets/scripts/TenMin.cs" Line="25" Column="30" />
+      <File FileName="Assets/scripts/game/time.cs" Line="43" Column="31" />
+      <File FileName="Assets/scripts/lobby/OneMin.cs" Line="7" Column="20" />
+      <File FileName="Assets/scripts/lobby/ThreeMin.cs" Line="26" Column="34" />
+      <File FileName="Assets/scripts/lobby/FiveMin.cs" Line="26" Column="33" />
+      <File FileName="Assets/scripts/lobby/TenMin.cs" Line="20" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,10 @@
           <Node name="VR_egg_project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="scripts" expanded="True">
-                <Node name="TenMin.cs" selected="True" />
+                <Node name="game" expanded="True">
+                  <Node name="time.cs" selected="True" />
+                </Node>
+                <Node name="lobby" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f026dd66-3122-4795-ab16-488c6b354f84" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="71b8c08b-d15c-4fb3-9cb1-9933d67b7679" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
