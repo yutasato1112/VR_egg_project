@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{15E14BD1-E613-41A7-64C8-5DABB2CC2918}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/game/time.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/lobby/userSelectTime.cs">
     <Files>
-      <File FileName="Assets/scripts/game/time.cs" Line="10" Column="27" />
-      <File FileName="Assets/scripts/lobby/userSelectTime.cs" />
+      <File FileName="Assets/scripts/game/time.cs" Line="14" Column="5" />
+      <File FileName="Assets/scripts/lobby/userSelectTime.cs" Line="30" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,10 +10,10 @@
           <Node name="VR_egg_project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="scripts" expanded="True">
-                <Node name="game" expanded="True">
-                  <Node name="time.cs" selected="True" />
+                <Node name="game" expanded="True" />
+                <Node name="lobby" expanded="True">
+                  <Node name="userSelectTime.cs" selected="True" />
                 </Node>
-                <Node name="lobby" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="71b8c08b-d15c-4fb3-9cb1-9933d67b7679" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6c147792-8f17-4a78-98ca-31ab5752c640" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
