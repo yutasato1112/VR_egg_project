@@ -238,6 +238,10 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/AnchorUIManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/SelectivePassthroughExperience.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+    <Compile Include="Assets/scripts/OneMin.cs" />
+    <Compile Include="Assets/scripts/ThreeMin.cs" />
+    <Compile Include="Assets/scripts/FiveMin.cs" />
+    <Compile Include="Assets/scripts/TenMin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" />

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{15E14BD1-E613-41A7-64C8-5DABB2CC2918}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/TenMin.cs">
+    <Files>
+      <File FileName="Assets/scripts/OneMin.cs" Line="20" Column="5" />
+      <File FileName="Assets/scripts/ThreeMin.cs" Line="26" Column="28" />
+      <File FileName="Assets/scripts/FiveMin.cs" Line="26" Column="28" />
+      <File FileName="Assets/scripts/TenMin.cs" Line="25" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR_egg_project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="TenMin.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f026dd66-3122-4795-ab16-488c6b354f84" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
