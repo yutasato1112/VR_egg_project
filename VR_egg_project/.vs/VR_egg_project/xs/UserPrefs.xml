@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{15E14BD1-E613-41A7-64C8-5DABB2CC2918}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/lobby/OneMin.cs">
+    <Files>
+      <File FileName="Assets/scripts/lobby/OneMin.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR_egg_project" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="25856df5-1054-4075-b228-0381ac232ef3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
