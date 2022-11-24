@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -56,21 +56,21 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/BloomEditor.cs" />
-    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/TonemappingEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs" />
-    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs" />
+    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs" />
+    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs" />
-    <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -337,8 +337,20 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -730,11 +742,17 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -751,8 +769,20 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -768,6 +798,12 @@
     </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
